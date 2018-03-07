@@ -12,7 +12,7 @@ var {
   TouchableHighlight,
 } = ReactNative;
 
-if (View.propTypes) {
+if (ViewPropTypes) {
   View.propTypes = ViewPropTypes;
 }
 

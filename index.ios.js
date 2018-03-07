@@ -11,7 +11,7 @@ import {
   ViewPropTypes
 } from 'react-native';
 
-if (View.propTypes) {
+if (ViewPropTypes) {
   View.propTypes = ViewPropTypes;
 }
 
