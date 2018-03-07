@@ -8,8 +8,13 @@ var {
   Text,
   Image,
   View,
+  ViewPropTypes,
   TouchableHighlight,
 } = ReactNative;
+
+if (View.propTypes) {
+  View.propTypes = ViewPropTypes;
+}
 
 var FBLoginManager = require('NativeModules').FBLoginManager;
 
